@@ -1,0 +1,21 @@
+{
+  "name": "llm-interactions",
+  "version": "1.0.0",
+  "description": "Experimenting with OpenAI's LLMs to produce health visualizations",
+  "main": "./src/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.56.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^17.0.1",
+    "ex": "^0.1.4",
+    "express": "^5.1.0",
+    "openai": "^5.8.2"
+  }
+}
