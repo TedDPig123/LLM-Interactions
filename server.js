@@ -28,18 +28,95 @@ function readCSV(filePath) {
   });
 }
 
+// app.post("/generate", async (req, res) => {
+//   try {
+//     const {
+//       fields = [],
+//       prompt: userPrompt = "How much water did I drink today?",
+//       constraints = "",
+//       modelProvider = "openai", // or "anthropic"
+//       apiKey,
+//     } = req.body;
+
+//     if (!apiKey) {
+//       return res.status(400).json({ error: "API key is required" });
+//     }
+
+//     const data = await readCSV(path.join(__dirname, "workout_fitness_tracker_data.csv"));
+//     const randomRow = data[Math.floor(Math.random() * data.length)];
+
+//     const filteredRow = {};
+//     for (const field of fields) {
+//       if (randomRow.hasOwnProperty(field)) {
+//         filteredRow[field] = randomRow[field];
+//       }
+//     }
+
+//     const basePrompt = `
+// Given the following JSON data and user query, generate an SVG-based glanceable chart.
+
+// Data:
+// ${JSON.stringify(filteredRow, null, 2)}
+
+// Constraints:
+// ${constraints}
+
+// Important:
+// - Do not include explanations, markdown, or comments.
+// - Make sure that if it was shrunk down to 200x200 it would still be readable
+// - When dealing with text, ALWAYS specify the font size in the svg
+// - Provide SVG <title> and <desc> for accessibility.
+// - This chart should be in the style of one you would see on a smartwatch or wearable health tracker
+// `;
+
+//     let responseText = "";
+
+//     if (modelProvider === "anthropic") {
+//       const anthropic = new Anthropic({ apiKey });
+//       const completion = await anthropic.messages.create({
+//         model: "claude-opus-4-20250514",
+//         max_tokens: 2000,
+//         temperature: 0.7,
+//         messages: [
+//           { role: "user", content: basePrompt }
+//         ],
+//       });
+//       responseText = completion.content[0]?.text || "";
+//     } else {
+//       const openai = new OpenAI({ apiKey });
+//       const completion = await openai.chat.completions.create({
+//         model: "gpt-4",
+//         temperature:  0.7,
+//         messages: [
+//           { role: "system", content: "You are an expert in data visualization and SVG design." },
+//           { role: "user", content: basePrompt },
+//         ],
+//       });
+//       responseText = completion.choices[0].message.content;
+//     }
+
+//     const svgMatch = responseText.match(/<svg[\s\S]*<\/svg>/i);
+//     const svgCode = svgMatch ? svgMatch[0] : "<!-- Invalid SVG Output -->";
+
+//     res.json({ row: filteredRow, svg: svgCode });
+//   } catch (err) {
+//     console.error(err);
+//     res.status(500).json({ error: "Failed to generate SVG" });
+//   }
+// });
+
 app.post("/generate", async (req, res) => {
   try {
     const {
       fields = [],
       prompt: userPrompt = "How much water did I drink today?",
       constraints = "",
-      modelProvider = "openai", // or "anthropic"
-      apiKey,
+      apiKeyOpenAI,
+      apiKeyClaude
     } = req.body;
 
-    if (!apiKey) {
-      return res.status(400).json({ error: "API key is required" });
+    if (!apiKeyOpenAI || !apiKeyClaude) {
+      return res.status(400).json({ error: "Both API keys are required" });
     }
 
     const data = await readCSV(path.join(__dirname, "workout_fitness_tracker_data.csv"));
@@ -58,51 +135,49 @@ Given the following JSON data and user query, generate an SVG-based glanceable c
 Data:
 ${JSON.stringify(filteredRow, null, 2)}
 
-Query: "${userPrompt}"
-
 Constraints:
 ${constraints}
 
 Important:
 - Do not include explanations, markdown, or comments.
-- Use class chart-text for ALL text
-- Use a width of 540px and a height of 540px
-- Make sure that if it was shrunk down to 200x200 it would still be readable
-- When dealing with text, ALWAYS specify the font size in the svg
+- Make sure that if it was shrunk down to 200x200 it would still be readable.
+- When dealing with text, ALWAYS specify the font size in the svg.
 - Provide SVG <title> and <desc> for accessibility.
+- This chart should be in the style of one you would see on a smartwatch or wearable health tracker.
 `;
 
-    let responseText = "";
+    const [svgOpenAI, rawOpenAI] = await (async () => {
+      const openai = new OpenAI({ apiKey: apiKeyOpenAI });
+      const completion = await openai.chat.completions.create({
+        model: "gpt-4",
+        temperature: 0.7,
+        messages: [
+          { role: "system", content: "You are an expert in data visualization and SVG design." },
+          { role: "user", content: basePrompt }
+        ]
+      });
+      const text = completion.choices[0].message.content;
+      const svg = text.match(/<svg[\s\S]*<\/svg>/i)?.[0] ?? "<!-- Invalid SVG Output -->";
+      return [svg, text];
+    })();
 
-    if (modelProvider === "anthropic") {
-      const anthropic = new Anthropic({ apiKey });
+    const [svgClaude, rawClaude] = await (async () => {
+      const anthropic = new Anthropic({ apiKey: apiKeyClaude });
       const completion = await anthropic.messages.create({
         model: "claude-opus-4-20250514",
         max_tokens: 2000,
         temperature: 0.7,
-        messages: [
-          { role: "user", content: basePrompt }
-        ],
+        messages: [{ role: "user", content: basePrompt }],
       });
-      responseText = completion.content[0]?.text || "";
-    } else {
-      const openai = new OpenAI({ apiKey });
-      const completion = await openai.chat.completions.create({
-        model: "gpt-4",
-        messages: [
-          { role: "system", content: "You are an expert in data visualization and SVG design." },
-          { role: "user", content: basePrompt },
-        ],
-      });
-      responseText = completion.choices[0].message.content;
-    }
+      const text = completion.content[0]?.text || "";
+      const svg = text.match(/<svg[\s\S]*<\/svg>/i)?.[0] ?? "<!-- Invalid SVG Output -->";
+      return [svg, text];
+    })();
 
-    const svgMatch = responseText.match(/<svg[\s\S]*<\/svg>/i);
-    const svgCode = svgMatch ? svgMatch[0] : "<!-- Invalid SVG Output -->";
+    res.json({ row: filteredRow, svgOpenAI, svgClaude, rawOpenAI, rawClaude });
 
-    res.json({ row: filteredRow, svg: svgCode });
   } catch (err) {
-    console.error(err);
+    console.error("Server error:", err);
     res.status(500).json({ error: "Failed to generate SVG" });
   }
 });
