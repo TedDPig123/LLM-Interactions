@@ -1,0 +1,8 @@
+<svg width="360" height="360" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="180" cy="180" r="90" fill="#f2f2f2"/>
+    <circle cx="180" cy="180" r="70" fill="#ffffff"/>
+    <path d="M180 180 v-70 a70 70 0 0 1 0 140Z" fill="#0080ff"/>
+    <text x="180" y="180" font-family="Verdana" font-size="35" text-anchor="middle" fill="#000000">3777</text>
+    <text x="180" y="220" font-family="Verdana" font-size="20" text-anchor="middle" fill="#000000">steps</text>
+    <image x="315" y="15" width="30" height="30" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0ibm9uZSIgdmlld0JveD0iMCAwIDE2IDE2Ij4KPHBhdGggZD0iTTE1LjUgOC41SDguNXY3aC03di03aC03di03aDdWNi41aDd2N3oiIHN0cm9rZT0iIzAwODAiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo="/>
+</svg>

@@ -1,0 +1,60 @@
+[✓] OPENAI - Row 1 → 001_how_much_dancing_do_i_need_to_do_to_burn
+[✓] CLAUDE - Row 1 → 001_how_much_dancing_do_i_need_to_do_to_burn
+[✓] OPENAI - Row 2 → 002_summary_of_my_sleep_cycles
+[✓] CLAUDE - Row 2 → 002_summary_of_my_sleep_cycles
+[X] OPENAI - Row 3 FAILED: No valid SVG generated
+[✓] CLAUDE - Row 3 → 003_during_which_song_did_i_burn_the_most_ca
+[✓] OPENAI - Row 4 → 001_summary_of_my_sleep_cycles
+[✓] CLAUDE - Row 4 → 001_summary_of_my_sleep_cycles
+[✓] OPENAI - Row 5 → 002_which_activity_had_the_highest_calories_
+[✓] CLAUDE - Row 5 → 002_which_activity_had_the_highest_calories_
+[X] OPENAI - Row 6 FAILED: No valid SVG generated
+[✓] CLAUDE - Row 6 → 003_how_many_times_was_i_awake_last_night_an
+[✓] OPENAI - Row 7 → 004_when_during_the_last_two_hours_with_my_h
+[✓] CLAUDE - Row 7 → 004_when_during_the_last_two_hours_with_my_h
+[✓] OPENAI - Row 8 → 005_compare_calories_burned_this_dance_sessi
+[✓] CLAUDE - Row 8 → 005_compare_calories_burned_this_dance_sessi
+[✓] OPENAI - Row 9 → 006_how_many_more_minutes_of_exercise_do_i_n
+[✓] CLAUDE - Row 9 → 006_how_many_more_minutes_of_exercise_do_i_n
+[✓] OPENAI - Row 10 → 007_based_on_my_activity_during_the_month_of
+[✓] CLAUDE - Row 10 → 007_based_on_my_activity_during_the_month_of
+[✓] OPENAI - Row 11 → 008_how_many_steps_have_i_taken_so_far_today
+[✓] CLAUDE - Row 11 → 008_how_many_steps_have_i_taken_so_far_today
+[✓] OPENAI - Row 12 → 009_did_i_close_all_three_of_my_rings_for_th
+[✓] CLAUDE - Row 12 → 009_did_i_close_all_three_of_my_rings_for_th
+[✓] OPENAI - Row 13 → 010_did_i_close_all_of_my_rings_today
+[✓] CLAUDE - Row 13 → 010_did_i_close_all_of_my_rings_today
+[✓] OPENAI - Row 14 → 011_how_many_steps_did_i_take_today
+[✓] CLAUDE - Row 14 → 011_how_many_steps_did_i_take_today
+[✓] OPENAI - Row 15 → 012_how_many_times_have_i_worked_out_this_we
+[✓] CLAUDE - Row 15 → 012_how_many_times_have_i_worked_out_this_we
+[✓] OPENAI - Row 16 → 013_how_many_steps_have_i_taken_so_far_today
+[✓] CLAUDE - Row 16 → 013_how_many_steps_have_i_taken_so_far_today
+[X] OPENAI - Row 17 FAILED: No valid SVG generated
+[✓] CLAUDE - Row 17 → 014_how_many_times_did_i_work_out_in_the_pas
+[X] OPENAI - Row 18 FAILED: No valid SVG generated
+[✓] CLAUDE - Row 18 → 015_how_many_times_did_i_close_all_three_rin
+[X] OPENAI - Row 19 FAILED: No valid SVG generated
+[✓] CLAUDE - Row 19 → 016_how_many_days_left_to_my_period
+[✓] OPENAI - Row 20 → 017_compare_the_heart_rate_of_my_friends_and
+[✓] CLAUDE - Row 20 → 017_compare_the_heart_rate_of_my_friends_and
+[✓] OPENAI - Row 21 → 018_i_would_like_to_check_a_trend_is_my_slee
+[✓] CLAUDE - Row 21 → 018_i_would_like_to_check_a_trend_is_my_slee
+[✓] OPENAI - Row 22 → 019_what_is_my_current_calorie_intake
+[✓] CLAUDE - Row 22 → 019_what_is_my_current_calorie_intake
+[✓] OPENAI - Row 23 → 020_should_i_go_for_a_run_today
+[✓] CLAUDE - Row 23 → 020_should_i_go_for_a_run_today
+[✓] OPENAI - Row 24 → 021_am_i_over_or_under_my_calorie_goal_at_th
+[✓] CLAUDE - Row 24 → 021_am_i_over_or_under_my_calorie_goal_at_th
+[✓] OPENAI - Row 25 → 022_how_many_calories_that_i_login_for_break
+[✓] CLAUDE - Row 25 → 022_how_many_calories_that_i_login_for_break
+[✓] OPENAI - Row 26 → 023_how_much_uninterrupted_sleep_did_l_get_l
+[✓] CLAUDE - Row 26 → 023_how_much_uninterrupted_sleep_did_l_get_l
+[X] OPENAI - Row 27 FAILED: No valid SVG generated
+[✓] CLAUDE - Row 27 → 024_what_is_my_current_bloodpressure
+[✓] OPENAI - Row 28 → 025_did_i_complete_my_water_goal_yesterday
+[✓] CLAUDE - Row 28 → 025_did_i_complete_my_water_goal_yesterday
+[✓] OPENAI - Row 29 → 026_how_many_calories_did_i_burn_in_the_last
+[✓] CLAUDE - Row 29 → 026_how_many_calories_did_i_burn_in_the_last
+[✓] OPENAI - Row 30 → 027_what_s_my_average_sleeping_time_this_pas
+[✓] CLAUDE - Row 30 → 027_what_s_my_average_sleeping_time_this_pas

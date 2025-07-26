@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="360" viewBox="0 0 360 360">
+  <style>
+    .small { font: italic 13px sans-serif; }
+    .large { font: bold 40px sans-serif; fill: #3e8e41 }
+    .light { fill: #ddd }
+    .dark { fill: #555 }
+  </style>
+  <circle cx="180" cy="180" r="135" fill="#f6f6f6"/>
+  <circle cx="180" cy="180" r="110" fill="#fff"/>
+  <path class="dark" d="M180 180 v-110 a110 110 0 0 1 0 220 z"/>
+  <path class="light" d="M180 180 v-110 a110 110 0 0 0 0 220 z"/>
+  <text x="180" y="180" class="small" text-anchor="middle" dy=".3em">TOTAL SLEEP</text>
+  <text x="180" y="180" class="large" text-anchor="middle" dy="50">4.9 hrs</text>
+</svg>

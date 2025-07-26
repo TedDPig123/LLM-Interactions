@@ -1,0 +1,38 @@
+<svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="360" height="360" fill="#000000"/>
+  
+  <!-- Title -->
+  <text x="180" y="40" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Activity Rings</text>
+  
+  <!-- Move Ring (Calories) -->
+  <circle cx="180" cy="180" r="110" fill="none" stroke="#1a1a1a" stroke-width="30"/>
+  <circle cx="180" cy="180" r="110" fill="none" stroke="#fa114f" stroke-width="30" 
+          stroke-dasharray="691.15" stroke-dashoffset="553" stroke-linecap="round"
+          transform="rotate(-90 180 180)"/>
+  <text x="180" y="130" text-anchor="middle" fill="#fa114f" font-family="Arial, sans-serif" font-size="14" font-weight="bold">MOVE</text>
+  <text x="180" y="148" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="18">196/500</text>
+  
+  <!-- Exercise Ring (Minutes) -->
+  <circle cx="180" cy="180" r="80" fill="none" stroke="#1a1a1a" stroke-width="30"/>
+  <circle cx="180" cy="180" r="80" fill="none" stroke="#92e82a" stroke-width="30" 
+          stroke-dasharray="502.65" stroke-dashoffset="0" stroke-linecap="round"
+          transform="rotate(-90 180 180)"/>
+  <text x="180" y="190" text-anchor="middle" fill="#92e82a" font-family="Arial, sans-serif" font-size="14" font-weight="bold">EXERCISE</text>
+  <text x="180" y="208" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="18">96/30</text>
+  
+  <!-- Stand Ring (Steps as proxy) -->
+  <circle cx="180" cy="180" r="50" fill="none" stroke="#1a1a1a" stroke-width="30"/>
+  <circle cx="180" cy="180" r="50" fill="none" stroke="#1fb6fc" stroke-width="30" 
+          stroke-dasharray="314.16" stroke-dashoffset="215" stroke-linecap="round"
+          transform="rotate(-90 180 180)"/>
+  <text x="180" y="250" text-anchor="middle" fill="#1fb6fc" font-family="Arial, sans-serif" font-size="14" font-weight="bold">STAND</text>
+  <text x="180" y="268" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="18">3.4K/10K</text>
+  
+  <!-- Summary -->
+  <text x="180" y="320" text-anchor="middle" fill="#999999" font-family="Arial, sans-serif" font-size="16">2 of 3 rings closed</text>
+  
+  <!-- Check marks for completed rings -->
+  <circle cx="290" cy="180" r="15" fill="#92e82a"/>
+  <path d="M282 180 L287 185 L298 174" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

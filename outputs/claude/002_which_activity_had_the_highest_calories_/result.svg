@@ -1,0 +1,31 @@
+<svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="360" height="360" fill="#000000"/>
+  
+  <!-- Title -->
+  <text x="180" y="50" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Calories per Minute</text>
+  
+  <!-- Activity Icon and Label -->
+  <g transform="translate(180, 140)">
+    <!-- HIIT Icon -->
+    <circle cx="0" cy="0" r="50" fill="#ff4444" opacity="0.2"/>
+    <path d="M-20,-10 L-10,-10 L-10,-30 L0,-30 L0,30 L10,30 L10,-20 L20,-20 L20,10 L10,10" 
+          fill="none" stroke="#ff4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text y="70" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20">HIIT</text>
+  </g>
+  
+  <!-- Large Calorie Rate Display -->
+  <text x="180" y="250" text-anchor="middle" fill="#ff4444" font-family="Arial, sans-serif" font-size="72" font-weight="bold">12.2</text>
+  <text x="180" y="280" text-anchor="middle" fill="#888888" font-family="Arial, sans-serif" font-size="18">cal/min</text>
+  
+  <!-- Bottom Stats -->
+  <g transform="translate(90, 320)">
+    <text text-anchor="middle" fill="#666666" font-family="Arial, sans-serif" font-size="14">802 cal</text>
+  </g>
+  <g transform="translate(180, 320)">
+    <text text-anchor="middle" fill="#666666" font-family="Arial, sans-serif" font-size="14">66 min</text>
+  </g>
+  <g transform="translate(270, 320)">
+    <text text-anchor="middle" fill="#666666" font-family="Arial, sans-serif" font-size="14">High</text>
+  </g>
+</svg>

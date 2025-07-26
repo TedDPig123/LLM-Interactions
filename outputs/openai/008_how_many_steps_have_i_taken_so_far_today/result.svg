@@ -1,0 +1,6 @@
+<svg width="360" height="360" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="180" cy="180" r="100" fill="none" stroke="#3B3B3B" stroke-width="20" />
+  <circle cx="180" cy="180" r="100" fill="none" stroke="#F0AD4E" stroke-width="20" stroke-dasharray="105.63, 1000" stroke-dashoffset="-25" />
+  <text x="180" y="180" text-anchor="middle" fill="#3B3B3B" font-size="30px" font-family="Arial, sans-serif" dy=".3em">10,563</text>
+  <text x="180" y="220" text-anchor="middle" fill="#3B3B3B" font-size="20px" font-family="Arial, sans-serif" dy=".3em">Steps Today</text>
+</svg>

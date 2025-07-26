@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" class="chart" viewBox="0 0 360 360">
+  <style>
+    .bar { fill: #1e88e5; }
+    .highlight { fill: #ff5722; }
+    .text { fill: #000; font-size: 14px; font-family: Arial, sans-serif; text-anchor: middle; }
+    .title { fill: #000; font-size: 18px; font-weight: bold; font-family: Arial, sans-serif; text-anchor: middle; }
+  </style>
+  <rect class="bar" x="30" y="360" width="60" height="-360" transform="scale(1,-1)">
+    <title>Your Heart Rate: 129 bpm</title>
+  </rect>
+  <rect class="highlight" x="270" y="360" width="60" height="-258" transform="scale(1,-1)">
+    <title>Friends' Average Heart Rate: 100 bpm</title>
+  </rect>
+  <text class="text" x="60" y="20">129 bpm</text>
+  <text class="text" x="300" y="120">100 bpm</text>
+  <text class="title" x="180" y="360">Heart Rate Comparison</text>
+</svg>

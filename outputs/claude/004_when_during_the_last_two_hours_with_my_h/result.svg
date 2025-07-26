@@ -1,0 +1,31 @@
+<svg width="360" height="360" viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="360" height="360" fill="#000000"/>
+  
+  <!-- Title -->
+  <text x="180" y="40" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">Heart Rate - Last 2 Hours</text>
+  
+  <!-- Main heart icon -->
+  <g transform="translate(180, 120)">
+    <path d="M-30,-15 C-30,-30 -15,-40 0,-30 C15,-40 30,-30 30,-15 C30,-5 15,10 0,25 C-15,10 -30,-5 -30,-15Z" fill="#ff4444" stroke="none">
+      <animate attributeName="transform" type="scale" values="1;1.1;1" dur="1s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Current heart rate display -->
+  <text x="180" y="200" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#ffffff" text-anchor="middle">115</text>
+  <text x="180" y="230" font-family="Arial, sans-serif" font-size="18" fill="#888888" text-anchor="middle">bpm</text>
+  
+  <!-- Status indicator -->
+  <rect x="130" y="250" width="100" height="4" rx="2" fill="#333333"/>
+  <rect x="130" y="250" width="60" height="4" rx="2" fill="#ff4444"/>
+  
+  <!-- Context info -->
+  <text x="180" y="280" font-family="Arial, sans-serif" font-size="16" fill="#888888" text-anchor="middle">During HIIT Workout</text>
+  
+  <!-- Time indicator -->
+  <g transform="translate(180, 310)">
+    <circle cx="0" cy="0" r="3" fill="#888888"/>
+    <text x="10" y="5" font-family="Arial, sans-serif" font-size="14" fill="#888888">85 mins ago</text>
+  </g>
+</svg>

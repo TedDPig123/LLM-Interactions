@@ -1,0 +1,25 @@
+<svg width="360" height="360" viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="360" fill="#1a1a1a"/>
+  
+  <!-- Title -->
+  <text x="180" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="#ffffff">Period Tracker</text>
+  
+  <!-- Calendar icon -->
+  <g transform="translate(160, 80)">
+    <rect x="0" y="10" width="40" height="35" rx="3" fill="none" stroke="#ff6b9d" stroke-width="2"/>
+    <rect x="0" y="0" width="40" height="15" rx="3" fill="#ff6b9d"/>
+    <circle cx="10" cy="7.5" r="1.5" fill="#1a1a1a"/>
+    <circle cx="30" cy="7.5" r="1.5" fill="#1a1a1a"/>
+  </g>
+  
+  <!-- Main message -->
+  <text x="180" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#888888">No period data available</text>
+  
+  <!-- Info icon -->
+  <circle cx="180" cy="230" r="20" fill="#2a2a2a" stroke="#444444" stroke-width="2"/>
+  <text x="180" y="237" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#666666">?</text>
+  
+  <!-- Suggestion text -->
+  <text x="180" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#666666">Track your cycle in the</text>
+  <text x="180" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#666666">health app to see predictions</text>
+</svg>

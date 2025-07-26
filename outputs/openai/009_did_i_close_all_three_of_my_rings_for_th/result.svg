@@ -1,0 +1,9 @@
+<svg width="360" height="360" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="180" cy="180" r="120" fill="none" stroke="grey" stroke-width="40" />
+  <circle cx="180" cy="180" r="120" fill="none" stroke="green" stroke-dasharray="calc(954 / 3620 * 100) 100" stroke-width="40" stroke-dashoffset="25" />
+  <circle cx="180" cy="180" r="80" fill="none" stroke="grey" stroke-width="40" />
+  <circle cx="180" cy="180" r="80" fill="none" stroke="blue" stroke-dasharray="calc(13.93 / 20 * 100) 100" stroke-width="40" stroke-dashoffset="25" />
+  <circle cx="180" cy="180" r="40" fill="none" stroke="grey" stroke-width="40" />
+  <circle cx="180" cy="180" r="40" fill="none" stroke="red" stroke-dasharray="calc(6 / 8 * 100) 100" stroke-width="40" stroke-dashoffset="25" />
+  <text x="180" y="180" font-family="Verdana" font-size="35" text-anchor="middle" fill="white">Rings</text>
+</svg>

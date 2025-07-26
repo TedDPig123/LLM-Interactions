@@ -1,0 +1,23 @@
+<svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="360" height="360" fill="#000000"/>
+  
+  <!-- Title -->
+  <text x="180" y="50" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold">This Week's Workouts</text>
+  
+  <!-- Large number display -->
+  <text x="180" y="180" text-anchor="middle" fill="#00ff88" font-family="Arial, sans-serif" font-size="120" font-weight="bold">1</text>
+  
+  <!-- Workout label -->
+  <text x="180" y="220" text-anchor="middle" fill="#888888" font-family="Arial, sans-serif" font-size="18">workout completed</text>
+  
+  <!-- Workout details -->
+  <g transform="translate(180, 270)">
+    <!-- HIIT icon/label -->
+    <rect x="-40" y="-15" width="80" height="30" rx="15" fill="#333333"/>
+    <text x="0" y="5" text-anchor="middle" fill="#00ff88" font-family="Arial, sans-serif" font-size="16" font-weight="bold">HIIT</text>
+  </g>
+  
+  <!-- Duration info -->
+  <text x="180" y="310" text-anchor="middle" fill="#666666" font-family="Arial, sans-serif" font-size="16">99 minutes</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg width="360" height="360" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="180" cy="180" r="120" fill="none" stroke="#8cd3ff" stroke-width="30" />
+  <circle cx="180" cy="180" r="120" fill="none" stroke="#00b0ff" stroke-width="30" stroke-dasharray="58.5 41.5" stroke-dashoffset="-14.625" />
+  <text x="180" y="180" font-size="30" font-family="Arial" text-anchor="middle" alignment-baseline="middle" fill="#000000">9.3h</text>
+  <text x="180" y="220" font-size="15" font-family="Arial" text-anchor="middle" alignment-baseline="middle" fill="#000000">Sleep</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="360" height="360" fill="#000000"/>
+  
+  <!-- Title -->
+  <text x="180" y="40" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">No Music Data Available</text>
+  
+  <!-- Icon -->
+  <g transform="translate(180, 140)">
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#ff4757" stroke-width="3"/>
+    <path d="M -20 -20 L 20 20 M 20 -20 L -20 20" stroke="#ff4757" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Message -->
+  <text x="180" y="240" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="16">Song tracking was not active</text>
+  <text x="180" y="260" text-anchor="middle" fill="#a0a0a0" font-family="Arial, sans-serif" font-size="16">during this workout</text>
+  
+  <!-- Workout Summary -->
+  <rect x="40" y="290" width="280" height="50" rx="25" fill="#1a1a1a" stroke="#333333" stroke-width="1"/>
+  <text x="180" y="310" text-anchor="middle" fill="#00ff88" font-family="Arial, sans-serif" font-size="14" font-weight="bold">996 calories burned</text>
+  <text x="180" y="328" text-anchor="middle" fill="#666666" font-family="Arial, sans-serif" font-size="12">51 min cardio workout</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg width="360" height="360" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .background { fill: #000; }
+    .bar { fill: #4CAF50; }
+    .axis { stroke: #FFF; }
+    .text { fill: #FFF; font-family: sans-serif; font-size: 12px; }
+    .title { fill: #FFF; font-family: sans-serif; font-size: 16px; text-anchor: middle; }
+  </style>
+  <rect class="background" width="360" height="360"/>
+  <g transform="translate(50, 60)">
+    <line class="axis" x1="0" y1="220" x2="260" y2="220"/>
+    <line class="axis" x1="0" y1="0" x2="0" y2="220"/>
+    <rect class="bar" x="20" y="200" width="30" height="20"/>
+    <rect class="bar" x="60" y="180" width="30" height="40"/>
+    <rect class="bar" x="100" y="160" width="30" height="60"/>
+    <rect class="bar" x="140" y="140" width="30" height="80"/>
+    <rect class="bar" x="180" y="120" width="30" height="100"/>
+    <rect class="bar" x="220" y="100" width="30" height="120"/>
+    <text class="text" x="20" y="240">Mon</text>
+    <text class="text" x="60" y="240">Tue</text>
+    <text class="text" x="100" y="240">Wed</text>
+    <text class="text" x="140" y="240">Thu</text>
+    <text class="text" x="180" y="240">Fri</text>
+    <text class="text" x="220" y="240">Sat</text>
+    <text class="text" x="260" y="240">Sun</text>
+  </g>
+  <text class="title" x="180" y="340">Sleep Trend (Hours)</text>
+</svg>

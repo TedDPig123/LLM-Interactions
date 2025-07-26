@@ -1,0 +1,6 @@
+<svg width="360" height="360" xmlns="http://www.w3.org/2000/svg">
+   <circle cx="180" cy="180" r="100" stroke="grey" stroke-width="2" fill="transparent"/>
+   <circle cx="180" cy="180" r="100" stroke="orange" stroke-width="20" stroke-dasharray="899 3265" stroke-dashoffset="0" fill="transparent" transform="rotate(-90 180 180)"/>
+   <text x="180" y="180" font-family="Verdana" font-size="35" text-anchor="middle" fill="white">899 kcal</text>
+   <text x="180" y="220" font-family="Verdana" font-size="20" text-anchor="middle" fill="white">burned</text>
+</svg>

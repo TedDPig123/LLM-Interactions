@@ -1,0 +1,31 @@
+<svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="360" height="360" fill="#000000"/>
+  
+  <!-- Title -->
+  <text x="180" y="40" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="600">Last 4 Hours</text>
+  
+  <!-- Fire icon -->
+  <g transform="translate(180, 100)">
+    <path d="M0,-25 C-8,-15 -10,-5 -10,5 C-10,15 -5,25 5,25 C15,25 20,15 20,5 C20,-5 18,-15 10,-25 C8,-20 5,-15 5,-10 C5,-5 3,0 0,5 C-3,0 -5,-5 -5,-10 C-5,-15 -2,-20 0,-25" fill="#ff6b35" opacity="0.9"/>
+    <path d="M0,-15 C-3,-10 -5,-5 -5,0 C-5,8 -2,15 5,15 C12,15 15,8 15,0 C15,-5 13,-10 10,-15 C8,-12 6,-8 6,-5 C6,-2 4,2 0,5 C-4,2 -6,-2 -6,-5 C-6,-8 -2,-12 0,-15" fill="#ffa500"/>
+  </g>
+  
+  <!-- Large calorie number -->
+  <text x="180" y="200" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="72" font-weight="300">899</text>
+  
+  <!-- Calories label -->
+  <text x="180" y="235" text-anchor="middle" fill="#888888" font-family="Arial, sans-serif" font-size="18">calories burned</text>
+  
+  <!-- Activity indicator -->
+  <g transform="translate(180, 280)">
+    <circle cx="-40" cy="0" r="4" fill="#666666"/>
+    <circle cx="-20" cy="0" r="4" fill="#666666"/>
+    <circle cx="0" cy="0" r="4" fill="#ff6b35"/>
+    <circle cx="20" cy="0" r="4" fill="#ff6b35"/>
+    <circle cx="40" cy="0" r="4" fill="#ff6b35"/>
+  </g>
+  
+  <!-- Workout type -->
+  <text x="180" y="320" text-anchor="middle" fill="#aaaaaa" font-family="Arial, sans-serif" font-size="16">Yoga • 84 mins</text>
+</svg>

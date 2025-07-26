@@ -1,0 +1,36 @@
+<svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="360" height="360" fill="#000000"/>
+  
+  <!-- Title -->
+  <text x="180" y="40" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Heart Rate Comparison</text>
+  
+  <!-- Heart icon -->
+  <path d="M180 80 C180 80, 150 60, 130 80 C110 100, 110 120, 130 140 L180 190 L230 140 C250 120, 250 100, 230 80 C210 60, 180 80, 180 80 Z" fill="#ff4444" opacity="0.8"/>
+  
+  <!-- Bar chart -->
+  <!-- Your heart rate bar -->
+  <rect x="60" y="220" width="60" height="80" fill="#ff4444" rx="8"/>
+  <text x="90" y="210" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">You</text>
+  <text x="90" y="320" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold">129</text>
+  <text x="90" y="340" text-anchor="middle" fill="#888888" font-family="Arial, sans-serif" font-size="12">bpm</text>
+  
+  <!-- Friend 1 -->
+  <rect x="120" y="240" width="60" height="60" fill="#4488ff" rx="8"/>
+  <text x="150" y="320" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="18">115</text>
+  
+  <!-- Friend 2 -->
+  <rect x="180" y="230" width="60" height="70" fill="#4488ff" rx="8"/>
+  <text x="210" y="320" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="18">122</text>
+  
+  <!-- Friend 3 -->
+  <rect x="240" y="250" width="60" height="50" fill="#4488ff" rx="8"/>
+  <text x="270" y="320" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="18">108</text>
+  
+  <!-- Friends label -->
+  <text x="210" y="210" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Friends</text>
+  
+  <!-- Status indicator -->
+  <circle cx="180" cy="160" r="4" fill="#44ff44"/>
+  <text x="190" y="165" fill="#44ff44" font-family="Arial, sans-serif" font-size="12">Active</text>
+</svg>

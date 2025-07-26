@@ -1,0 +1,29 @@
+<svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="360" height="360" fill="#000000"/>
+  
+  <!-- Title -->
+  <text x="180" y="40" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Weekly Workouts</text>
+  
+  <!-- Bar Chart -->
+  <!-- Previous Week Bar -->
+  <rect x="80" y="200" width="80" height="100" fill="#4a5568" rx="10"/>
+  <text x="120" y="190" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="14">Last Week</text>
+  <text x="120" y="250" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="36" font-weight="bold">3</text>
+  
+  <!-- Current Week Bar -->
+  <rect x="200" y="120" width="80" height="180" fill="#10b981" rx="10"/>
+  <text x="240" y="110" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="14">This Week</text>
+  <text x="240" y="210" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="36" font-weight="bold">5</text>
+  
+  <!-- Comparison Arrow -->
+  <path d="M 170 240 L 190 240" stroke="#10b981" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#10b981"/>
+    </marker>
+  </defs>
+  
+  <!-- Summary Text -->
+  <text x="180" y="330" text-anchor="middle" fill="#10b981" font-family="Arial, sans-serif" font-size="18" font-weight="bold">+67% increase</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg viewBox="0 0 36 36" width="360" height="360">
+  <circle cx="18" cy="18" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="2"></circle>
+  <circle cx="18" cy="18" r="15.91549430918954" fill="transparent" stroke="#f00" stroke-width="2" stroke-dasharray="61.2 38.8" stroke-dashoffset="97.2"></circle>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#f00" font-size="5" font-weight="bold">974 Cal</text>
+  <text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle" fill="#808080" font-size="3">Target: 800 Cal</text>
+</svg>

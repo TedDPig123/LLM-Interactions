@@ -1,0 +1,11 @@
+<svg height="360" width="360" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Circle -->
+    <circle cx="180" cy="180" r="160" fill="#f0f0f0" />
+    
+    <!-- Workout Count Circle -->
+    <circle cx="180" cy="180" r="120" fill="#88C9A8" />
+
+    <!-- Text -->
+    <text x="50%" y="50%" dy=".3em" text-anchor="middle" fill="#000000" font-family="Arial, sans-serif" font-size="40">1</text>
+    <text x="50%" y="65%" text-anchor="middle" fill="#000000" font-family="Arial, sans-serif" font-size="20">Workout this week</text>
+</svg>

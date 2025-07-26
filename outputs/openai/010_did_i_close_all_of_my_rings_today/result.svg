@@ -1,0 +1,8 @@
+<svg width="360" height="360" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="180" cy="180" r="160" fill="#eee" />
+  <circle cx="180" cy="180" r="130" fill="#333" />
+  <circle cx="180" cy="180" r="96" fill="#eee" stroke="#f00" stroke-width="68" stroke-dasharray="502.4, 1006.4" transform="rotate(-90 180 180)" />
+  <circle cx="180" cy="180" r="60" fill="#333" stroke="#0f0" stroke-width="32" stroke-dasharray="376.8, 753.6" transform="rotate(-90 180 180)" />
+  <circle cx="180" cy="180" r="44" fill="#eee" stroke="#00f" stroke-width="16" stroke-dasharray="251.2, 502.4" transform="rotate(-90 180 180)" />
+  <text x="180" y="190" fill="#333" font-size="20" text-anchor="middle" font-family="Arial">All Rings Closed</text>
+</svg>

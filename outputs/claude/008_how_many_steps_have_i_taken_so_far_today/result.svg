@@ -1,0 +1,36 @@
+<svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="360" height="360" fill="#000000"/>
+  
+  <!-- Circular progress ring -->
+  <circle cx="180" cy="180" r="120" fill="none" stroke="#1a1a1a" stroke-width="24"/>
+  <circle cx="180" cy="180" r="120" fill="none" stroke="#00ff88" stroke-width="24" 
+          stroke-linecap="round" stroke-dasharray="753.98" stroke-dashoffset="151"
+          transform="rotate(-90 180 180)"/>
+  
+  <!-- Step icon -->
+  <g transform="translate(180, 100)">
+    <path d="M-15,-10 L-15,10 L-5,10 L-5,0 L5,0 L5,10 L15,10 L15,-10 L5,-10 L5,0 L-5,0 L-5,-10 Z" 
+          fill="#00ff88" opacity="0.8"/>
+  </g>
+  
+  <!-- Steps count -->
+  <text x="180" y="190" font-family="Arial, sans-serif" font-size="56" font-weight="bold" 
+        fill="#ffffff" text-anchor="middle">10,563</text>
+  
+  <!-- Steps label -->
+  <text x="180" y="220" font-family="Arial, sans-serif" font-size="18" 
+        fill="#888888" text-anchor="middle">STEPS TODAY</text>
+  
+  <!-- Distance indicator -->
+  <rect x="120" y="250" width="120" height="2" fill="#333333"/>
+  <rect x="120" y="250" width="82" height="2" fill="#00ff88"/>
+  
+  <!-- Distance text -->
+  <text x="180" y="275" font-family="Arial, sans-serif" font-size="16" 
+        fill="#cccccc" text-anchor="middle">6.83 km</text>
+  
+  <!-- Goal indicator (assuming 12,000 steps goal) -->
+  <text x="180" y="310" font-family="Arial, sans-serif" font-size="14" 
+        fill="#666666" text-anchor="middle">88% of daily goal</text>
+</svg>

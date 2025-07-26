@@ -1,0 +1,37 @@
+<svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="360" height="360" fill="#000000"/>
+  
+  <!-- Title -->
+  <text x="180" y="40" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Activity Rings</text>
+  
+  <!-- Move Ring (Calories) -->
+  <circle cx="180" cy="180" r="110" fill="none" stroke="#1a1a1a" stroke-width="30"/>
+  <circle cx="180" cy="180" r="110" fill="none" stroke="#fa114f" stroke-width="30" 
+          stroke-dasharray="691.15" stroke-dashoffset="0" 
+          stroke-linecap="round" transform="rotate(-90 180 180)"/>
+  
+  <!-- Exercise Ring (Minutes) -->
+  <circle cx="180" cy="180" r="75" fill="none" stroke="#1a1a1a" stroke-width="30"/>
+  <circle cx="180" cy="180" r="75" fill="none" stroke="#92e82a" stroke-width="30" 
+          stroke-dasharray="471.24" stroke-dashoffset="0" 
+          stroke-linecap="round" transform="rotate(-90 180 180)"/>
+  
+  <!-- Stand Ring (Steps - using 10k as goal) -->
+  <circle cx="180" cy="180" r="40" fill="none" stroke="#1a1a1a" stroke-width="30"/>
+  <circle cx="180" cy="180" r="40" fill="none" stroke="#1cc6ff" stroke-width="30" 
+          stroke-dasharray="251.33" stroke-dashoffset="0" 
+          stroke-linecap="round" transform="rotate(-90 180 180)"/>
+  
+  <!-- Center badges -->
+  <circle cx="180" cy="180" r="20" fill="#ffffff" opacity="0.2"/>
+  <text x="180" y="188" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">3/3</text>
+  
+  <!-- Ring Labels -->
+  <text x="180" y="270" text-anchor="middle" fill="#fa114f" font-family="Arial, sans-serif" font-size="14" font-weight="bold">MOVE 954/600</text>
+  <text x="180" y="290" text-anchor="middle" fill="#92e82a" font-family="Arial, sans-serif" font-size="14" font-weight="bold">EXERCISE 56/30</text>
+  <text x="180" y="310" text-anchor="middle" fill="#1cc6ff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">STEPS 12.8K/10K</text>
+  
+  <!-- Success message -->
+  <text x="180" y="340" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">All Rings Closed! 🎯</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="360" fill="#1a1a2e"/>
+  
+  <!-- Moon icon -->
+  <path d="M80 80 C80 55, 55 30, 30 30 C40 30, 50 40, 50 50 C50 75, 75 100, 100 100 C75 100, 50 75, 50 50 C50 60, 60 70, 70 70 C45 70, 20 95, 20 120 C20 95, 45 70, 70 70 C80 70, 90 60, 90 50 C90 75, 65 100, 40 100 C65 100, 90 75, 90 50 C90 40, 80 30, 70 30 C95 30, 120 55, 120 80 C120 105, 95 130, 70 130 C80 130, 90 120, 90 110 C90 100, 80 90, 70 90 C60 90, 50 100, 50 110 C50 120, 60 130, 70 130 C45 130, 20 105, 20 80 C20 55, 45 30, 70 30" fill="#ffd700" opacity="0.8"/>
+  
+  <!-- Main circle background -->
+  <circle cx="180" cy="180" r="120" fill="#0f0f1e" stroke="#2a2a4e" stroke-width="2"/>
+  
+  <!-- Sleep duration text -->
+  <text x="180" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#4a90e2">4.9</text>
+  <text x="180" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#8b9dc3">hours</text>
+  
+  <!-- Sleep quality indicator -->
+  <rect x="120" y="200" width="120" height="8" rx="4" fill="#2a2a4e"/>
+  <rect x="120" y="200" width="60" height="8" rx="4" fill="#ff6b6b"/>
+  
+  <!-- Warning icon -->
+  <circle cx="180" cy="240" r="15" fill="#ff6b6b"/>
+  <text x="180" y="247" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1a1a2e">!</text>
+  
+  <!-- Bottom text -->
+  <text x="180" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#8b9dc3">Below recommended</text>
+  <text x="180" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#666">7-9 hours ideal</text>
+</svg>

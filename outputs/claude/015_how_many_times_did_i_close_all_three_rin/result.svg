@@ -1,0 +1,31 @@
+<svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="360" height="360" fill="#000000"/>
+  
+  <!-- Title -->
+  <text x="180" y="40" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">October Ring Closures</text>
+  
+  <!-- No data available message -->
+  <text x="180" y="180" text-anchor="middle" fill="#999999" font-family="Arial, sans-serif" font-size="18">No October data available</text>
+  
+  <!-- Current day indicator -->
+  <text x="180" y="210" text-anchor="middle" fill="#666666" font-family="Arial, sans-serif" font-size="14">Today's data shown instead</text>
+  
+  <!-- Today's rings -->
+  <g transform="translate(180, 280)">
+    <!-- Move ring (red) -->
+    <circle cx="0" cy="0" r="45" fill="none" stroke="#1a1a1a" stroke-width="8"/>
+    <circle cx="0" cy="0" r="45" fill="none" stroke="#ff3b30" stroke-width="8" stroke-dasharray="283" stroke-dashoffset="0" stroke-linecap="round" transform="rotate(-90)"/>
+    
+    <!-- Exercise ring (green) -->
+    <circle cx="0" cy="0" r="32" fill="none" stroke="#1a1a1a" stroke-width="8"/>
+    <circle cx="0" cy="0" r="32" fill="none" stroke="#04de71" stroke-width="8" stroke-dasharray="201" stroke-dashoffset="134" stroke-linecap="round" transform="rotate(-90)"/>
+    
+    <!-- Stand ring (blue) -->
+    <circle cx="0" cy="0" r="19" fill="none" stroke="#1a1a1a" stroke-width="8"/>
+    <circle cx="0" cy="0" r="19" fill="none" stroke="#00bfff" stroke-width="8" stroke-dasharray="119" stroke-dashoffset="60" stroke-linecap="round" transform="rotate(-90)"/>
+    
+    <!-- Center icon -->
+    <text x="0" y="5" text-anchor="middle" fill="#ffffff" font-size="16">1/3</text>
+  </g>
+</svg>

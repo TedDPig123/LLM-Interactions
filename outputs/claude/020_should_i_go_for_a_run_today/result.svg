@@ -1,0 +1,44 @@
+<svg width="360" height="360" viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="360" height="360" fill="#1a1a1a"/>
+  
+  <!-- Title -->
+  <text x="180" y="40" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Run Today?</text>
+  
+  <!-- Warning Icon -->
+  <circle cx="180" cy="100" r="35" fill="#ff6b6b" opacity="0.2"/>
+  <path d="M180 75 L165 105 L195 105 Z" fill="#ff6b6b"/>
+  <circle cx="180" cy="115" r="4" fill="#ff6b6b"/>
+  
+  <!-- Main Message -->
+  <text x="180" y="165" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="28" font-weight="bold">Rest Recommended</text>
+  
+  <!-- Key Metrics -->
+  <g transform="translate(60, 200)">
+    <!-- Sleep -->
+    <circle cx="30" cy="30" r="25" fill="none" stroke="#3a3a3a" stroke-width="5"/>
+    <circle cx="30" cy="30" r="25" fill="none" stroke="#ff6b6b" stroke-width="5" stroke-dasharray="78.5 78.5" stroke-dashoffset="39.25" transform="rotate(-90 30 30)"/>
+    <text x="30" y="35" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">4.4h</text>
+    <text x="30" y="65" text-anchor="middle" fill="#888888" font-family="Arial, sans-serif" font-size="12">Sleep</text>
+  </g>
+  
+  <g transform="translate(150, 200)">
+    <!-- Steps -->
+    <circle cx="30" cy="30" r="25" fill="none" stroke="#3a3a3a" stroke-width="5"/>
+    <circle cx="30" cy="30" r="25" fill="none" stroke="#4ecdc4" stroke-width="5" stroke-dasharray="157 0" transform="rotate(-90 30 30)"/>
+    <text x="30" y="35" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">17k</text>
+    <text x="30" y="65" text-anchor="middle" fill="#888888" font-family="Arial, sans-serif" font-size="12">Steps</text>
+  </g>
+  
+  <g transform="translate(240, 200)">
+    <!-- Fatigue -->
+    <circle cx="30" cy="30" r="25" fill="none" stroke="#3a3a3a" stroke-width="5"/>
+    <circle cx="30" cy="30" r="25" fill="none" stroke="#ffd93d" stroke-width="5" stroke-dasharray="157 0" transform="rotate(-90 30 30)"/>
+    <text x="30" y="35" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20">😴</text>
+    <text x="30" y="65" text-anchor="middle" fill="#888888" font-family="Arial, sans-serif" font-size="12">Fatigued</text>
+  </g>
+  
+  <!-- Recommendation -->
+  <rect x="40" y="290" width="280" height="50" rx="25" fill="#2a2a2a"/>
+  <text x="180" y="320" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="16">Try light stretching or walking instead</text>
+</svg>

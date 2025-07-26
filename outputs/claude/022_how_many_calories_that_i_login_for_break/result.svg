@@ -1,0 +1,29 @@
+<svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="360" height="360" fill="#1a1a1a"/>
+  
+  <!-- Title -->
+  <text x="180" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="#ffffff" text-anchor="middle">Breakfast Calories</text>
+  
+  <!-- Breakfast icon -->
+  <g transform="translate(180, 100)">
+    <circle cx="0" cy="0" r="35" fill="#ff6b35" opacity="0.2"/>
+    <path d="M -20 -5 Q -20 -15 -10 -15 L 10 -15 Q 20 -15 20 -5 L 20 5 Q 20 15 10 15 L -10 15 Q -20 15 -20 5 Z" fill="#ff6b35"/>
+    <circle cx="0" cy="-5" r="8" fill="#ffffff" opacity="0.8"/>
+    <path d="M -25 5 Q -25 -5 -20 -5 M 25 5 Q 25 -5 20 -5" stroke="#ff6b35" stroke-width="3" fill="none"/>
+  </g>
+  
+  <!-- Main calorie display -->
+  <text x="180" y="200" font-family="Arial, sans-serif" font-size="72" font-weight="700" fill="#ff6b35" text-anchor="middle">957</text>
+  <text x="180" y="230" font-family="Arial, sans-serif" font-size="20" fill="#999999" text-anchor="middle">calories</text>
+  
+  <!-- Percentage of daily intake -->
+  <g transform="translate(180, 280)">
+    <rect x="-100" y="-15" width="200" height="30" rx="15" fill="#333333"/>
+    <rect x="-100" y="-15" width="66" height="30" rx="15" fill="#ff6b35"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="16" font-weight="500" fill="#ffffff" text-anchor="middle">33% of daily intake</text>
+  </g>
+  
+  <!-- Note -->
+  <text x="180" y="340" font-family="Arial, sans-serif" font-size="14" fill="#666666" text-anchor="middle">Total daily: 2,871 cal</text>
+</svg>

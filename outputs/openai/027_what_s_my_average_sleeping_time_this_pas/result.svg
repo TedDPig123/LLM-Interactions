@@ -1,0 +1,7 @@
+<svg width="360" height="360" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="180" cy="180" r="160" fill="#f3f3f3" />
+  <circle cx="180" cy="180" r="130" fill="#ffffff" />
+  <path d="M180 50 A130 130 0 0 1 310 180 L180 180Z" fill="#f48fb1" />
+  <text x="180" y="190" font-family="Verdana" font-size="35" text-anchor="middle" fill="#000000">8.8h</text>
+  <text x="180" y="230" font-family="Verdana" font-size="20" text-anchor="middle" fill="#000000">Avg Sleep</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="360" height="360" fill="#1a1a1a"/>
+  
+  <!-- Title -->
+  <text x="180" y="50" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Sleep Average</text>
+  <text x="180" y="80" text-anchor="middle" fill="#888888" font-family="Arial, sans-serif" font-size="18">Past Week</text>
+  
+  <!-- Moon icon -->
+  <path d="M160 120 Q140 140 140 160 Q140 180 160 200 Q150 190 150 160 Q150 130 160 120" fill="#6366f1" opacity="0.8"/>
+  
+  <!-- Large sleep hours display -->
+  <text x="180" y="200" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="72" font-weight="300">8.8</text>
+  <text x="180" y="230" text-anchor="middle" fill="#888888" font-family="Arial, sans-serif" font-size="20">hours</text>
+  
+  <!-- Sleep quality indicator bar -->
+  <rect x="60" y="260" width="240" height="8" rx="4" fill="#333333"/>
+  <rect x="60" y="260" width="211" height="8" rx="4" fill="#6366f1"/>
+  
+  <!-- Quality label -->
+  <text x="180" y="290" text-anchor="middle" fill="#6366f1" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Excellent Sleep</text>
+  
+  <!-- Bottom insight -->
+  <text x="180" y="320" text-anchor="middle" fill="#888888" font-family="Arial, sans-serif" font-size="16">Above recommended 8 hours</text>
+</svg>

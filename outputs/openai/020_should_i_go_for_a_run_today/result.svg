@@ -1,0 +1,12 @@
+<svg width="360" height="360" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="180" cy="180" r="100" fill="#f8f8f8" />
+
+    <text x="180" y="165" font-family="Verdana" font-size="35" text-anchor="middle" fill="#333">Run Today?</text>
+
+    <text x="180" y="210" font-family="Verdana" font-size="20" text-anchor="middle" fill="#333">Sleep: 4.4hrs</text>
+    <text x="180" y="240" font-family="Verdana" font-size="20" text-anchor="middle" fill="#333">Resting HR: 85bpm</text>
+
+    <text x="180" y="280" font-family="Verdana" font-size="35" text-anchor="middle" fill="#f44336">Not Recommended</text>
+
+    <text x="180" y="320" font-family="Verdana" font-size="15" text-anchor="middle" fill="#333">Consider more sleep and rest</text>
+</svg>

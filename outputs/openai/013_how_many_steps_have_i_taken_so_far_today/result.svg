@@ -1,0 +1,8 @@
+<svg width="360" height="360" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="180" cy="180" r="100" fill="#e6e6e6"/>
+    <circle cx="180" cy="180" r="90" fill="#ffffff"/>
+    <text x="180" y="180" font-size="24" text-anchor="middle" alignment-baseline="middle" fill="#000000">18913</text>
+    <text x="180" y="220" font-size="18" text-anchor="middle" alignment-baseline="middle" fill="#000000">Steps Today</text>
+    <path d="M180 80 A 100 100 0 0 1 280 180" stroke="#00b300" fill="transparent" stroke-width="18"/>
+    <image x="150" y="235" width="60" height="60" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCI+PHBhdGggZD0iTTI1IDVDNTEuMTEzIDIuODg3IDY1IDIxLjg4NyA2NSA1MCA1MS4xMTMgOTcuMTExIDI1IDExNS4xMTMgMjEuODg3IDUwIDI1IDV6bTYuNTg2LTMuMzQzYy0uMjg1LS4yODUtLjcyLS4yODUtMS4wMDUgMGwtOS4yODUgOS4yODUtMi4wNzEtMi4xNDRjLS4yODUtLjI4NS0uNzI1LS4yODUtMS4wMTEgMGwtMS40MTcgMS40MTdjLS4yODUuMjg1LS4yODUuNzI1IDAgMS4wMTFsMy44MzIgMy43OTJjLjI4NS4yODUuNzI1LjI4NSAxLjAxMSAwbDEwLjcwMS0xMC43MDFjLjI4NS0uMjg1LjI4NS0uNzI1IDAtMS4wMTF6IiBmaWxsPSIjMDAwIi8+PC9zdmc+Cg=="/>
+</svg>

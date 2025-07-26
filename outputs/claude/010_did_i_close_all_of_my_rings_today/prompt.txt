@@ -1,0 +1,73 @@
+=== USER QUERY ===
+Query: Did I close all of my rings today
+Activity: I'm sitting
+Related to Activity: No
+Time: undefined
+
+=== SELECTED FITNESS DATA ===
+User ID: 7692
+Age: 56
+Gender: Female
+Height (cm): 192
+Weight (kg): 76
+Workout Type: HIIT
+Workout Duration (mins): 96
+Calories Burned: 196
+Heart Rate (bpm): 106
+Steps Taken: 3430
+Distance (km): 9.92
+Workout Intensity: Low
+Sleep Hours: 6.6
+Water Intake (liters): 1.9
+Daily Calories Intake: 1784
+Resting Heart Rate (bpm): 64
+VO2 Max: 38.4
+Body Fat (%): 28.5
+Mood Before Workout: Tired
+Mood After Workout: Fatigued
+
+=== FULL PROMPT SENT TO MODEL ===
+You are a data visualization expert specializing in smartwatch health interfaces. You will be given a single row of personal health data and a user query:
+
+User Query: Did I close all of my rings today
+
+Personal Health Data:
+User ID: 7692
+Age: 56
+Gender: Female
+Height (cm): 192
+Weight (kg): 76
+Workout Type: HIIT
+Workout Duration (mins): 96
+Calories Burned: 196
+Heart Rate (bpm): 106
+Steps Taken: 3430
+Distance (km): 9.92
+Workout Intensity: Low
+Sleep Hours: 6.6
+Water Intake (liters): 1.9
+Daily Calories Intake: 1784
+Resting Heart Rate (bpm): 64
+VO2 Max: 38.4
+Body Fat (%): 28.5
+Mood Before Workout: Tired
+Mood After Workout: Fatigued
+
+Your task is to:
+1. Determine the most appropriate visualization mode for the insight, choosing from:
+   - Donut chart
+   - Bar chart  
+   - Icon-based chart
+   - Text-only with color/icon emphasis
+
+2. Generate a single compact SVG suitable for a smartwatch screen (approximately 360x360 pixels). The SVG must be:
+   - Visually clear and glanceable
+   - Optimized for small screens
+   - Aesthetically pleasing, with components contrasting the background
+   - Self-contained (no external styles or dependencies)
+   - Labeled with meaningful titles, units, or icons where appropriate
+   - In the style of a visual that would be seen on a smartwatch
+
+Focus on the user's perspective: What is most relevant for them to know at a glance right now?
+
+Please respond with only the SVG code, starting with <svg and ending with </svg>.

@@ -1,0 +1,7 @@
+<svg width="360" height="360" xmlns="http://www.w3.org/2000/svg">
+  <rect width="360" height="360" fill="#222222" />
+  <circle cx="180" cy="180" r="120" fill="none" stroke="#FF5722" stroke-width="30" />
+  <text x="180" y="200" fill="#FFFFFF" text-anchor="middle" font-family="Arial" font-size="35">HIIT</text>
+  <text x="180" y="240" fill="#FFFFFF" text-anchor="middle" font-family="Arial" font-size="18">Calories Burned/Min</text>
+  <text x="180" y="280" fill="#FF5722" text-anchor="middle" font-family="Arial" font-size="40">12.15</text>
+</svg>

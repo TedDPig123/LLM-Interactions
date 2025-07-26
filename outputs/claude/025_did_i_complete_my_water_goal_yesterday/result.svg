@@ -1,0 +1,23 @@
+<svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="360" height="360" fill="#1a1a1a"/>
+  
+  <!-- Water drop icon -->
+  <path d="M180 80 C180 80, 140 140, 140 180 C140 202, 158 220, 180 220 C202 220, 220 202, 220 180 C220 140, 180 80, 180 80 Z" fill="#4a90e2" opacity="0.3"/>
+  
+  <!-- Progress ring background -->
+  <circle cx="180" cy="180" r="100" fill="none" stroke="#333" stroke-width="20" stroke-linecap="round"/>
+  
+  <!-- Progress ring (1.9L of 2L = 95%) -->
+  <circle cx="180" cy="180" r="100" fill="none" stroke="#4a90e2" stroke-width="20" stroke-linecap="round" stroke-dasharray="594" stroke-dashoffset="30" transform="rotate(-90 180 180)"/>
+  
+  <!-- Center text -->
+  <text x="180" y="170" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="48" font-weight="bold">1.9L</text>
+  <text x="180" y="200" text-anchor="middle" fill="#999" font-family="Arial, sans-serif" font-size="20">of 2.0L</text>
+  
+  <!-- Status -->
+  <text x="180" y="280" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="24" font-weight="500">Almost There!</text>
+  
+  <!-- Yesterday label -->
+  <text x="180" y="50" text-anchor="middle" fill="#666" font-family="Arial, sans-serif" font-size="16">YESTERDAY</text>
+</svg>

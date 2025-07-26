@@ -1,0 +1,18 @@
+<svg width="360" height="360" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <rect fill="#1a1a1a" width="360" height="360"/>
+    <text fill="#ffffff" font-size="18" x="100" y="30">November Goals Adjustment</text>
+    <text fill="#ffffff" font-size="14" x="20" y="70">Workout Duration</text>
+    <rect fill="#5cb85c" x="20" y="90" width="48" height="30"/>
+    <text fill="#ffffff" font-size="14" x="20" y="140">Calories Burned</text>
+    <rect fill="#5cb85c" x="20" y="160" width="44.8" height="30"/>
+    <text fill="#ffffff" font-size="14" x="20" y="210">Steps Taken</text>
+    <rect fill="#5cb85c" x="20" y="230" width="132.75" height="30"/>
+    <text fill="#ffffff" font-size="14" x="220" y="70">Sleep Hours</text>
+    <rect fill="#5bc0de" x="220" y="90" width="85" height="30"/>
+    <text fill="#ffffff" font-size="14" x="220" y="140">Water Intake</text>
+    <rect fill="#5bc0de" x="220" y="160" width="38" height="30"/>
+    <text fill="#ffffff" font-size="14" x="220" y="210">Calories Intake</text>
+    <rect fill="#5bc0de" x="220" y="230" width="223.8" height="30"/>
+  </g>
+</svg>

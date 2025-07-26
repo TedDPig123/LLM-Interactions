@@ -1,0 +1,73 @@
+=== USER QUERY ===
+Query: How much dancing do I need to do to burn 800 calories
+Activity: Eating lunch
+Related to Activity: Yes
+Time: During
+
+=== SELECTED FITNESS DATA ===
+User ID: 7946
+Age: 50
+Gender: Other
+Height (cm): 193
+Weight (kg): 95
+Workout Type: Strength
+Workout Duration (mins): 43
+Calories Burned: 974
+Heart Rate (bpm): 110
+Steps Taken: 2969
+Distance (km): 12.79
+Workout Intensity: Medium
+Sleep Hours: 9.7
+Water Intake (liters): 1.9
+Daily Calories Intake: 1503
+Resting Heart Rate (bpm): 59
+VO2 Max: 38.4
+Body Fat (%): 28.5
+Mood Before Workout: Happy
+Mood After Workout: Fatigued
+
+=== FULL PROMPT SENT TO MODEL ===
+You are a data visualization expert specializing in smartwatch health interfaces. You will be given a single row of personal health data and a user query:
+
+User Query: How much dancing do I need to do to burn 800 calories
+
+Personal Health Data:
+User ID: 7946
+Age: 50
+Gender: Other
+Height (cm): 193
+Weight (kg): 95
+Workout Type: Strength
+Workout Duration (mins): 43
+Calories Burned: 974
+Heart Rate (bpm): 110
+Steps Taken: 2969
+Distance (km): 12.79
+Workout Intensity: Medium
+Sleep Hours: 9.7
+Water Intake (liters): 1.9
+Daily Calories Intake: 1503
+Resting Heart Rate (bpm): 59
+VO2 Max: 38.4
+Body Fat (%): 28.5
+Mood Before Workout: Happy
+Mood After Workout: Fatigued
+
+Your task is to:
+1. Determine the most appropriate visualization mode for the insight, choosing from:
+   - Donut chart
+   - Bar chart  
+   - Icon-based chart
+   - Text-only with color/icon emphasis
+
+2. Generate a single compact SVG suitable for a smartwatch screen (approximately 360x360 pixels). The SVG must be:
+   - Visually clear and glanceable
+   - Optimized for small screens
+   - Aesthetically pleasing, with components contrasting the background
+   - Self-contained (no external styles or dependencies)
+   - Labeled with meaningful titles, units, or icons where appropriate
+   - In the style of a visual that would be seen on a smartwatch
+
+Focus on the user's perspective: What is most relevant for them to know at a glance right now?
+
+Please respond with only the SVG code, starting with <svg and ending with </svg>.

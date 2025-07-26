@@ -1,0 +1,8 @@
+<svg width="360" height="360" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <title>Highest Heart Rate in Last Two Hours</title>
+    <circle cx="180" cy="180" r="120" fill="none" stroke="#FF0000" stroke-width="30" />
+    <text x="180" y="190" font-family="'Roboto', sans-serif" font-size="40" text-anchor="middle" fill="#FFFFFF">115 bpm</text>
+    <text x="180" y="240" font-family="'Roboto', sans-serif" font-size="20" text-anchor="middle" fill="#FFFFFF">Highest Heart Rate</text>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="360" height="360" fill="#1a1a1a"/>
+  
+  <!-- Title -->
+  <text x="180" y="40" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Dance to Burn 800 Cal</text>
+  
+  <!-- Dancing figure icon -->
+  <g transform="translate(180, 100)">
+    <circle cx="0" cy="-15" r="12" fill="#ff6b6b" opacity="0.8"/>
+    <path d="M -15 -5 L 0 5 L 0 25 M 0 5 L 15 -5 M 0 25 L -10 45 M 0 25 L 10 45" stroke="#ff6b6b" stroke-width="4" stroke-linecap="round" fill="none"/>
+  </g>
+  
+  <!-- Main circular progress -->
+  <circle cx="180" cy="200" r="80" fill="none" stroke="#333333" stroke-width="20"/>
+  <circle cx="180" cy="200" r="80" fill="none" stroke="#ff6b6b" stroke-width="20" 
+          stroke-dasharray="502.65" stroke-dashoffset="125.66" 
+          transform="rotate(-90 180 200)" stroke-linecap="round"/>
+  
+  <!-- Time display -->
+  <text x="180" y="195" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="48" font-weight="bold">35</text>
+  <text x="180" y="220" text-anchor="middle" fill="#999999" font-family="Arial, sans-serif" font-size="18">minutes</text>
+  
+  <!-- Calories per minute reference -->
+  <rect x="60" y="300" width="240" height="40" rx="20" fill="#2a2a2a"/>
+  <text x="180" y="325" text-anchor="middle" fill="#ff6b6b" font-family="Arial, sans-serif" font-size="16" font-weight="bold">~23 cal/min dancing</text>
+</svg>
