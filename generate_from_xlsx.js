@@ -6,8 +6,8 @@ import sharp from "sharp";
 import OpenAI from "openai";
 import Anthropic from "@anthropic-ai/sdk";
 
-const openai = new OpenAI({ apiKey:"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"});
-const anthropic = new Anthropic({ apiKey:"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"});
+const openai = new OpenAI({ apiKey:"XXXX"});
+const anthropic = new Anthropic({ apiKey:"XXXX"});
 
 const OUTPUT_DIR = "outputs";
 const QUERY_FILE = "query_data_205.xlsx";
